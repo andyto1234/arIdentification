@@ -100,7 +100,7 @@ def send_email(email_recipient, email_subject, email_message, attachment_locatio
 
 subject = "Daily STEREO-A Prediction: "+str(prediction) + "% of having a sunspot (" + today.strftime("%d/%m")+ ")"
 attachmentLocation = "/Users/ato/scripts/python_code/arIdentification/latest_images/"+d1+'.jpg'
-message = "Dear all,\n\nThanks for being the first people to try out our sunspot prediction bot!!\n\nThe bot now has a 90% accuracy (1 in 10 will be false), so please don't rely on the percentage for important observations!:)\n\nAlso, do give me a shout if you can think of any new features!!\n\nHave a great day!\n\nBest wishes,\nAndy\n"
+message = "Dear all,\n\nThanks for being the first people to try out our sunspot prediction bot!!\n\nThe bot has a 90% accuracy (1 in 10 will be false), so please don't rely on the percentage for important observations!:)\n\nAlso, do give me a shout if you can think of any new features!!\n\nUpdate v2.1: You can now find my code in https://github.com/andyto1234/arIdentification! Have a great day:D\n\nBest wishes,\nAndy\n"
 # recipients = ['toshuho@gmail.com','zcicsht@ucl.ac.uk','ryan.french.14@ucl.ac.uk','teodora.mihailescu.19@ucl.ac.uk',"j.o'kane.17@ucl.ac.uk",'david.long@ucl.ac.uk','camille.lorfing.20@ucl.ac.uk', 'jinge.zhang.18@ucl.ac.uk', 'deborah.baker@ucl.ac.uk','ucasdde@ucl.ac.uk', 'hannah.clear.19@ucl.ac.uk', 'stephanie.yardley@ucl.ac.uk']
 recipients = [k for k in recipient.split(",")]
 # recipients = ['toshuho@gmail.com', 'd.stansby@ucl.ac.uk', 'stephanie.yardley@ucl.ac.uk', 'david.long@ucl.ac.uk']
