@@ -18,3 +18,9 @@ I have configured the model to read image from a folder called latest_images. Yo
 ## Sending e-mails
 
 The last part of the code involves fetching the latest image everyday and sending it to the mailing list. You will need an .env file to read your email, password, and mailing list in order for it to work.
+
+## Set-up
+
+```
+python main.py
+```
