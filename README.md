@@ -1,6 +1,6 @@
 # Solar Active Region Identification
 
-This project involves three key ingredients, and it's constructed with two codes with two different tools (Not sure why I did that... D:):
+This project reads the latest STEREO-A 195 Å image and provide a percentage on how likely there's an active region (+making a mailing list). To achieve this, the code involves three key ingredients, and it's constructed with two codes with two different tools (Not sure why I did that... D:):
 
 - Training (mainTraining.ipynb)
 - Predicting and Sending e-mails (main.py)
