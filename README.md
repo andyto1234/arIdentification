@@ -1,5 +1,10 @@
 # arIdentification
 
+This project involves three key ingredients, and it's constructed in two codes and two different tools (Not sure why I did that... D:):
+
+- Training (mainTraining.ipynb)
+- Predicting and Sending e-mails (main.py)
+
 ## Training
 
 The training code is writting using Jupyter Notebook (mainTraining.ipynb). You will need a data folder to put all your training data.
