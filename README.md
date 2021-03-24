@@ -1,4 +1,4 @@
-# arIdentification
+# Solar Active Region Identification
 
 This project involves three key ingredients, and it's constructed with two codes with two different tools (Not sure why I did that... D:):
 
